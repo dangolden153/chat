@@ -140,7 +140,7 @@ const Chat =()=>{
 
                     }
 
-export default ()=>(
+export default  ()=>(
     <ApolloProvider  client={client}>
         <Chat/>
     </ApolloProvider > 
