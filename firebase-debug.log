@@ -1,0 +1,77 @@
+[debug] [2020-11-19T16:54:08.111Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T16:54:08.120Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-19T16:54:08.121Z] CLI Version:   8.16.2
+[debug] [2020-11-19T16:54:08.122Z] Platform:      win32
+[debug] [2020-11-19T16:54:08.122Z] Node Version:  v12.14.1
+[debug] [2020-11-19T16:54:08.124Z] Time:          Thu Nov 19 2020 17:54:08 GMT+0100 (West Africa Standard Time)
+[debug] [2020-11-19T16:54:08.125Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T16:54:08.125Z] 
+[debug] [2020-11-19T16:54:08.313Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-19T16:54:08.317Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dangolden\Desktop\golden-chat
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2020-11-19T16:58:28.133Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T16:58:28.142Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-11-19T16:58:28.143Z] CLI Version:   8.16.2
+[debug] [2020-11-19T16:58:28.144Z] Platform:      win32
+[debug] [2020-11-19T16:58:28.144Z] Node Version:  v12.14.1
+[debug] [2020-11-19T16:58:28.146Z] Time:          Thu Nov 19 2020 17:58:28 GMT+0100 (West Africa Standard Time)
+[debug] [2020-11-19T16:58:28.147Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T16:58:28.147Z] 
+[debug] [2020-11-19T16:58:28.269Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-19T16:58:28.271Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dangolden\Desktop\golden-chat
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using chat-75ba2. 
+[debug] [2020-11-19T16:58:57.975Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-75ba2  
+ 
+[debug] [2020-11-19T16:58:59.517Z] Server Error. connect ECONNREFUSED 216.58.223.234:443
+[debug] [2020-11-19T16:59:01.023Z] FirebaseError: Server Error. connect ECONNREFUSED 216.58.223.234:443
+    at Request._callback (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.onRequestError (C:\Users\Dangolden\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:228:7)
+    at ClientRequest.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:223:5)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[error] 
+[error] Error: Failed to get Firebase project chat-75ba2. Please make sure the project exists and your account has permission to access it.
